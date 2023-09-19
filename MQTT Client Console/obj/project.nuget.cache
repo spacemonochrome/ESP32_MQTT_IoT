@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "dgSpecHash": "uz502jZeLGDjmaLf6nhri637MzetEyrgtl7hYxtYiP8snB9qTmQ80Fe/VH9dd+RnTiFW1mVvXPWlSIz4xsarkA==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\MQTT Client Console\\MQTT Client Console.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\hasan\\.nuget\\packages\\hivemqtt\\0.3.0\\hivemqtt.0.3.0.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.1\\microsoft.extensions.logging.abstractions.7.0.1.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\nlog\\5.2.3\\nlog.5.2.3.nupkg.sha512",
+    "C:\\Users\\hasan\\.nuget\\packages\\system.io.pipelines\\7.0.0\\system.io.pipelines.7.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

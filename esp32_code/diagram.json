@@ -1,0 +1,40 @@
+{
+  "version": 1,
+  "author": "Halka Açık Hesap HFK",
+  "editor": "wokwi",
+  "parts": [
+    { "type": "wokwi-esp32-devkit-v1", "id": "esp", "top": -3.41, "left": 0, "attrs": {} },
+    {
+      "type": "wokwi-led",
+      "id": "led1",
+      "top": 1.03,
+      "left": -58.77,
+      "attrs": { "color": "red" }
+    },
+    {
+      "type": "wokwi-resistor",
+      "id": "r1",
+      "top": 84.66,
+      "left": -63,
+      "rotate": 90,
+      "attrs": { "value": "1000" }
+    },
+    { "type": "wokwi-potentiometer", "id": "pot1", "top": -22.07, "left": 146.08, "attrs": {} }
+  ],
+  "connections": [
+    [ "esp:TX0", "$serialMonitor:RX", "", [] ],
+    [ "esp:RX0", "$serialMonitor:TX", "", [] ],
+    [ "led1:A", "r1:1", "green", [ "v0" ] ],
+    [ "esp:D26", "r1:2", "green", [ "h-21.11", "v16.29" ] ],
+    [ "led1:C", "esp:GND.2", "green", [ "v0" ] ],
+    [ "pot1:GND", "esp:GND.1", "black", [ "v0" ] ],
+    [ "pot1:VCC", "esp:3V3", "red", [ "v0" ] ],
+    [
+      "pot1:SIG",
+      "esp:D34",
+      "green",
+      [ "v39.68", "h-60.05", "v-99.8", "h-141.35", "v64.64", "h10.3" ]
+    ]
+  ],
+  "dependencies": {}
+}
